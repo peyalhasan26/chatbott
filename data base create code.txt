@@ -1,0 +1,12 @@
+CREATE DATABASE user_login;
+
+USE user_login;
+
+CREATE TABLE user (
+    id INT(20) AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(40),
+    email VARCHAR(40),
+    password VARCHAR(100)
+);
+
+// first you have to create database than open the xampp server for localhost like(localhost:80/phpmyadmin))
